@@ -1,0 +1,17 @@
+# Kredensial & konfigurasi lokal — jangan pernah di-push!
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Binary hasil build Go
+*.exe
+*.out
+*.test
+
+# File hasil upload user
+uploads/*
+!uploads/.gitkeep
