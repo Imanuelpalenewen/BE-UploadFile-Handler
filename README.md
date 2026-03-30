@@ -59,9 +59,3 @@ Response sukses berisi metadata file dan status insert metadata ke DB.
 - URL: `/my_files`
 - Headers:
   - `X-API-Key: <API_KEY>`
-
-## Catatan GitHub
-
-- File `.env` di-ignore agar credential tidak ikut ter-push.
-- Folder `uploads` tetap ada lewat `.gitkeep`, tapi file upload user tidak ikut ke GitHub.
-- Gunakan `.env.example` sebagai template konfigurasi untuk orang lain.
